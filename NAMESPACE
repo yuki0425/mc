@@ -1,0 +1,17 @@
+import(markovchain)
+
+export(mc)
+export(ctmc)
+export(dtmc)
+export(generator)
+export(generatorToInputs)
+export(hittingtime)
+export(stn)
+
+S3method(hittingtime, "dtmc")
+S3method(stn, "dtmc")
+S3method(print, "dtmc")
+S3method(hittingtime, "ctmc")
+S3method(stn, "ctmc")
+S3method(print, "ctmc")
+

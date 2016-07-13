@@ -1,0 +1,13 @@
+Package: mc
+Type: Package
+Title: Markov Chain Model
+Version: 1.0
+Date: 2016-02-01
+Author: Jiexuan Cao, Yunying (Yuki) Liu, Qianhan Zhang
+Maintainer: Yuki Liu <yukliu@ucdavis.edu>
+Description: Functions and S3 methods to create and explore Markov chains under both discrete- and continuous-time Markov Chain. Offering the computations of stationary distribution and expected hitting times, with rows and columns specified by the user.
+License: GPL-2
+Suggests: testthat
+Depends: markovchain
+NeedsCompilation: no
+Packaged: 2016-02-02 08:27:18 UTC; caojiexuan
